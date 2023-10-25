@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mini Clip</string>
+    <string name="mini_clip">Mini Clip</string>
+    <string name="signup">SignUp</string>
+    <string name="email">Email</string>
+    <string name="password">Password\n</string>
+    <string name="confirm_password">Confirm Password\n</string>
+    <string name="already_have_an_account">Already have an account</string>
+</resources>
