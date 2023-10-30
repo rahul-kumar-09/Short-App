@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                     UiUtil.showToast(this, "Profile")
                 }
             }
-            false
+            return@setOnItemReselectedListener
         }
     }
 }
