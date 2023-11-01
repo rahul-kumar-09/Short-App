@@ -86,7 +86,7 @@ class VideoUploadActivity : AppCompatActivity() {
             .addOnSuccessListener {
                 setInProgress(true)
                 UiUtil.showToast(applicationContext,"Video uploaded")
-                finish()
+                startActivity(Intent(this, MainActivity::class.java))
             }.addOnFailureListener {
                 setInProgress(true)
                 UiUtil.showToast(applicationContext, "Video failed to upload")
